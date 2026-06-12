@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" role="img" aria-labelledby="title desc">
+  <title id="title">Five robot agents hanging from strings</title>
+  <desc id="desc">Five vertical strings, each carrying a different cartoon robot agent.</desc>
+  <style>
+    :root {
+      color-scheme: light;
+    }
+
+    svg {
+      overflow: visible;
+    }
+
+    .string {
+      fill: none;
+      stroke: #353b44;
+      stroke-linecap: round;
+      stroke-width: 3.5;
+    }
+
+    .robot-shell {
+      fill: #f8fbff;
+      stroke: #2f343b;
+      stroke-linejoin: round;
+      stroke-width: 4;
+    }
+
+    .robot-face {
+      fill: #1d2630;
+    }
+
+    .robot-eye {
+      fill: #f8fbff;
+    }
+
+    .accent-1 {
+      fill: #2aa8a8;
+    }
+
+    .accent-2 {
+      fill: #f08a3e;
+    }
+
+    .accent-3 {
+      fill: #7b61ff;
+    }
+
+    .accent-4 {
+      fill: #4caa5d;
+    }
+
+    .accent-5 {
+      fill: #e75d6a;
+    }
+
+    .pendulum {
+      animation: swing 3.6s ease-in-out infinite;
+      transform-origin: 0 0;
+    }
+
+    .hanger-1 .pendulum {
+      animation-delay: -0.2s;
+    }
+
+    .hanger-2 .pendulum {
+      animation-delay: -1.15s;
+      animation-duration: 3.9s;
+    }
+
+    .hanger-3 .pendulum {
+      animation-delay: -0.65s;
+      animation-duration: 4.2s;
+    }
+
+    .hanger-4 .pendulum {
+      animation-delay: -1.75s;
+      animation-duration: 3.7s;
+    }
+
+    .hanger-5 .pendulum {
+      animation-delay: -0.95s;
+      animation-duration: 4s;
+    }
+
+    @keyframes swing {
+      0%,
+      100% {
+        transform: rotate(-3.2deg);
+      }
+
+      50% {
+        transform: rotate(3.2deg);
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .pendulum {
+        animation: none;
+      }
+    }
+  </style>
+
+  <g class="hanger-1" transform="translate(86 28)">
+    <g class="pendulum">
+      <path class="string" d="M0 0c-3 90 2 180 0 272" />
+      <g transform="translate(-30 270)">
+        <rect class="robot-shell" x="7" y="0" width="46" height="47" rx="13" />
+        <rect class="robot-face" x="15" y="12" width="30" height="16" rx="8" />
+        <circle class="robot-eye" cx="25" cy="20" r="3.2" />
+        <circle class="robot-eye" cx="36" cy="20" r="3.2" />
+        <path class="accent-1" d="M20 42h21v10c0 6-5 11-11 11s-10-5-10-11z" />
+        <path class="robot-shell" d="M12 49h37v15c0 9-7 16-16 16h-5c-9 0-16-7-16-16z" />
+        <circle class="accent-1" cx="30" cy="60" r="6" />
+        <path class="robot-shell" d="M18 3l-7-11" />
+        <circle class="accent-1" cx="9" cy="-10" r="5" />
+      </g>
+    </g>
+  </g>
+
+  <g class="hanger-2" transform="translate(173 28)">
+    <g class="pendulum">
+      <path class="string" d="M0 0c3 72-2 145 0 222" />
+      <g transform="translate(-31 220)">
+        <rect class="robot-shell" x="6" y="0" width="50" height="45" rx="10" />
+        <rect class="robot-face" x="15" y="11" width="32" height="17" rx="4" />
+        <rect class="robot-eye" x="22" y="16" width="6" height="6" rx="2" />
+        <rect class="robot-eye" x="35" y="16" width="6" height="6" rx="2" />
+        <path class="accent-2" d="M14 39h34v14H14z" />
+        <path class="robot-shell" d="M13 50h36v23H13z" />
+        <path class="accent-2" d="M23 59h16v6H23z" />
+        <path class="robot-shell" d="M16 6h-11v18h11" />
+        <path class="robot-shell" d="M46 6h11v18H46" />
+      </g>
+    </g>
+  </g>
+
+  <g class="hanger-3" transform="translate(260 28)">
+    <g class="pendulum">
+      <path class="string" d="M0 0c-2 82 2 166 0 252" />
+      <g transform="translate(-33 250)">
+        <rect class="robot-shell" x="7" y="4" width="52" height="43" rx="20" />
+        <rect class="robot-face" x="18" y="15" width="31" height="16" rx="8" />
+        <circle class="robot-eye" cx="27" cy="23" r="3.2" />
+        <circle class="robot-eye" cx="40" cy="23" r="3.2" />
+        <path class="accent-3" d="M20 0h26l7 10H13z" />
+        <path class="robot-shell" d="M16 47h34v27c0 7-6 13-13 13h-8c-7 0-13-6-13-13z" />
+        <circle class="accent-3" cx="33" cy="60" r="5" />
+        <path class="accent-3" d="M24 70h18v6H24z" />
+      </g>
+    </g>
+  </g>
+
+  <g class="hanger-4" transform="translate(347 28)">
+    <g class="pendulum">
+      <path class="string" d="M0 0c2 72-1 144 0 220" />
+      <g transform="translate(-31 218)">
+        <rect class="robot-shell" x="7" y="0" width="49" height="47" rx="14" />
+        <path class="accent-4" d="M16 8h31v13H16z" />
+        <circle class="robot-face" cx="24" cy="27" r="5" />
+        <circle class="robot-face" cx="40" cy="27" r="5" />
+        <path class="robot-shell" d="M14 48h36v25c0 8-7 15-15 15h-6c-8 0-15-7-15-15z" />
+        <path class="accent-4" d="M23 59h18v18H23z" />
+        <path class="robot-shell" d="M32 0v-13" />
+        <path class="accent-4" d="M24-20h16v9H24z" />
+      </g>
+    </g>
+  </g>
+
+  <g class="hanger-5" transform="translate(434 28)">
+    <g class="pendulum">
+      <path class="string" d="M0 0c-2 90 2 180 0 272" />
+      <g transform="translate(-29 270)">
+        <rect class="robot-shell" x="6" y="3" width="47" height="42" rx="8" />
+        <path class="accent-5" d="M6 15c8-10 38-10 47 0v8H6z" />
+        <rect class="robot-face" x="16" y="22" width="27" height="12" rx="6" />
+        <circle class="robot-eye" cx="25" cy="28" r="2.8" />
+        <circle class="robot-eye" cx="35" cy="28" r="2.8" />
+        <path class="robot-shell" d="M13 45h34v23c0 8-6 14-14 14h-6c-8 0-14-6-14-14z" />
+        <path class="accent-5" d="M21 55h18v17H21z" />
+        <path class="robot-shell" d="M13 3l-8-9" />
+        <path class="robot-shell" d="M46 3l8-9" />
+      </g>
+    </g>
+  </g>
+</svg>

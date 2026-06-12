@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>康养陪伴型数字人产品 - 胡镇涛</title>
+    <link rel="icon" href="../assets/profile.jpg" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="nav-wrap">
+        <a class="site-name" href="../index.html">胡镇涛</a>
+        <nav class="nav-links" aria-label="主导航">
+          <a href="../index.html">Home</a>
+          <a class="active" href="../index.html#projects">Projects</a>
+          <a href="../index.html#experience">Experience</a>
+          <a href="../index.html#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <article class="card detail-card">
+        <a class="back-link" href="../index.html#projects">← Back to Projects</a>
+        <h1 class="detail-title">康养陪伴型数字人产品</h1>
+        <p class="detail-meta">AI Product · Digital Human · OpenChatAvatar · Coze Agent · Doubao Voice</p>
+        <p class="detail-lede">
+          这是一个面向康养陪伴场景的数字人产品。项目从产品调研、需求梳理和技术方案出发，重点验证数字人前端形象、语音交互链路和智能体能力如何组合成可部署、可验收的陪伴系统。
+        </p>
+
+        <div class="detail-grid">
+          <aside>
+            <section class="detail-section">
+              <h2>Role</h2>
+              <p>创建并推进项目，负责产品调研、需求梳理、技术方案制定、交互链路拆解、模型/框架选型和阶段性研发协同。</p>
+            </section>
+            <section class="detail-section">
+              <h2>Keywords</h2>
+              <div class="tag-list">
+                <span>数字人</span>
+                <span>康养场景</span>
+                <span>Coze</span>
+                <span>OpenChatAvatar</span>
+                <span>豆包端到端语音</span>
+                <span>自建音频链路</span>
+                <span>语音交互</span>
+                <span>低延迟对话</span>
+              </div>
+            </section>
+          </aside>
+
+          <div>
+            <section class="detail-section">
+              <h2>Background</h2>
+              <p>
+                养老机构需要的不是一次性的展示 demo，而是一套能够被一线人员理解、可部署、可验收、可持续运营的智能陪伴方案。因此产品设计需要同时考虑老人、机构、家属、运营人员和技术实施方。
+              </p>
+            </section>
+
+            <section class="detail-section">
+              <h2>What I Did</h2>
+              <ul>
+                <li>调研数字人硬件选型和部署形态，比较不同终端、摄像头、麦克风、边缘主机和展示设备的成本与可维护性。</li>
+                <li>梳理数字人软件框架和驱动方案，包括魔法科技数字人驱动、LiveTalking、OpenChatAvatar 等主流交互框架，并比较形象驱动、音频输入输出和部署复杂度。</li>
+                <li>基于阿里开源 OpenChatAvatar 框架搭建数字人交互 demo，自建麦克风采集、VAD、ASR、LLM/Agent、TTS、音频播放和数字人驱动状态同步链路。</li>
+                <li>设计 Coze 智能体版本：由本地音频链路完成采集、识别、合成和播放，由自建 Coze 智能体负责陪伴对话、意图识别、工具流转和业务知识维护。</li>
+                <li>设计豆包端到端语音版本：集成豆包实时语音交互模型，减少传统 ASR-LLM-TTS 串联延迟，并封装流式输入输出、打断、轮次状态和数字人驱动接口。</li>
+                <li>将能力拆为主语音交互、回忆录生成、本地音乐播放、老人资料配置、场景问答和异常兜底等模块。</li>
+                <li>补充方言适配、紧急呼叫、家属联动、隐私授权、非医疗边界、离线容错和验收指标。</li>
+                <li>带领小组完成阶段性产品研发，项目已获得集团立项和人才计划，总计约 80w 项目资金。</li>
+              </ul>
+            </section>
+
+            <section class="detail-section">
+              <h2>Technical Notes</h2>
+              <ul>
+                <li>OpenChatAvatar 路线适合验证数字人框架可控性，重点在自建音频链路与数字人状态同步，便于后续替换 ASR、LLM、TTS 和业务 Agent。</li>
+                <li>Coze 路线适合快速沉淀陪伴型智能体能力，通过 prompt、知识库、工作流和工具调用维护业务逻辑，本地侧只负责音频与数字人呈现。</li>
+                <li>豆包端到端语音路线适合低延迟对话体验验证，重点处理实时语音流、打断、静音检测、轮次切换和数字人播报状态。</li>
+              </ul>
+            </section>
+
+            <section class="detail-section">
+              <h2>Output</h2>
+              <p>
+                项目将数字人能力从“演示型方案”向“可研发、可立项、可衍生”的产品方向推进，并形成了 OpenChatAvatar 自建链路、Coze 智能体链路、豆包端到端语音链路三类可对比方案。
+              </p>
+            </section>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <p>Last updated: Jun 2026 · Static homepage for GitHub Pages.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI 漫剧生产链路 - 胡镇涛</title>
+    <link rel="icon" href="../assets/profile.jpg" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="nav-wrap">
+        <a class="site-name" href="../index.html">胡镇涛</a>
+        <nav class="nav-links" aria-label="主导航">
+          <a href="../index.html">Home</a>
+          <a class="active" href="../index.html#projects">Projects</a>
+          <a href="../index.html#experience">Experience</a>
+          <a href="../index.html#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <article class="card detail-card">
+        <a class="back-link" href="../index.html#projects">← Back to Projects</a>
+        <h1 class="detail-title">AI 漫剧生产链路 / 字字动画项目</h1>
+        <p class="detail-meta">AIGC Pipeline · GPU Compute Bridge · Video Translation · Overseas Distribution</p>
+        <p class="detail-lede">
+          该项目围绕 AI 漫剧生产建立完整链路，从内容抓取、分镜生成、模型插件接入、算力中转、视频翻译到发行路径，重点是将零散模型能力组织成可运营、可交付、可扩展的内容生产流程。
+        </p>
+
+        <div class="detail-grid">
+          <aside>
+            <section class="detail-section">
+              <h2>Role</h2>
+              <p>负责链路梳理、方案沉淀、模型插件接入、算力中转、视频翻译出海任务设计与商业化路径协同。</p>
+            </section>
+            <section class="detail-section">
+              <h2>Pipeline</h2>
+              <div class="tag-list">
+                <span>文本/IP 获取</span>
+                <span>分镜生成</span>
+                <span>图片/视频生成</span>
+                <span>GPU 算力中转</span>
+                <span>多语言翻译</span>
+                <span>字幕/配音对齐</span>
+                <span>分发变现</span>
+              </div>
+            </section>
+          </aside>
+
+          <div>
+            <section class="detail-section">
+              <h2>Background</h2>
+              <p>
+                AIGC 内容产品的难点不只是单次生成效果，而是内容供给、生成工具、算力接入、质量控制、翻译本地化和发行路径之间的连续协作。
+              </p>
+            </section>
+
+            <section class="detail-section">
+              <h2>What I Did</h2>
+              <ul>
+                <li>梳理内容抓取、分镜生成、模型插件接入、算力中转、视频翻译与发行路径。</li>
+                <li>沉淀“文本/IP 获取 -> 分镜生成 -> 图片/视频生成 -> 算力任务调度 -> 多语言翻译 -> 分发变现”链路。</li>
+                <li>为 AI 漫剧生成任务设计算力中转方案，支持 GPU 节点接入、任务提交、队列调度、运行状态轮询、结果文件回传、失败重试和成本核算。</li>
+                <li>针对国产剧翻译出海任务设计 video-translator 链路，串联音频抽取、ASR 转写、文本翻译与润色、字幕时间轴对齐、配音合成和多语言版本导出。</li>
+                <li>补充任务侧的输入输出约束，包括原片文件、字幕文件、角色声线、目标语言、分段策略、输出格式和人工复核点。</li>
+                <li>推进相关合作沟通，目前合作工作均表达采购意愿。</li>
+              </ul>
+            </section>
+
+            <section class="detail-section">
+              <h2>Technical Notes</h2>
+              <ul>
+                <li>算力中转模块关注资源可用性和交付稳定性：通过任务队列隔离前端请求和 GPU 执行环境，减少模型生成任务对业务系统的阻塞。</li>
+                <li>视频翻译模块关注多模态时间轴一致性：ASR 结果、翻译文本、字幕切分和配音时长需要保持对齐，避免出海版本出现字幕漂移和语音错位。</li>
+                <li>链路设计保留人工复核节点，适合在生成质量、翻译语气、角色称谓和平台审核要求之间做运营侧控制。</li>
+              </ul>
+            </section>
+
+            <section class="detail-section">
+              <h2>Output</h2>
+              <p>
+                该项目沉淀了一条从文本/IP 到生成、算力调度、翻译出海和分发的内容生产链路，并向采购意愿和商业化合作推进。
+              </p>
+            </section>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <p>Last updated: Jun 2026 · Static homepage for GitHub Pages.</p>
+    </footer>
+  </body>
+</html>

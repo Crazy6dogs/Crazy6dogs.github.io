@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>大模型语音交互模型 - 胡镇涛</title>
+    <link rel="icon" href="../assets/profile.jpg" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="nav-wrap">
+        <a class="site-name" href="../index.html">胡镇涛</a>
+        <nav class="nav-links" aria-label="主导航">
+          <a href="../index.html">Home</a>
+          <a class="active" href="../index.html#projects">Projects</a>
+          <a href="../index.html#experience">Experience</a>
+          <a href="../index.html#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <article class="card detail-card">
+        <a class="back-link" href="../index.html#projects">← Back to Projects</a>
+        <h1 class="detail-title">基于 llama3-8B 的语音交互模型</h1>
+        <p class="detail-meta">LLM · ASR/TTS · Whisper · Llama3 · Fine-tuning</p>
+        <p class="detail-lede">
+          该项目围绕语音交互链路进行预研，搭建 ASR、LLM、TTS 组合链路，并测试多种大模型在音频数据微调场景下的表现。
+        </p>
+
+        <div class="detail-grid">
+          <aside>
+            <section class="detail-section">
+              <h2>Role</h2>
+              <p>负责交互链路搭建、模型测试和不同微调方式的效果对比。</p>
+            </section>
+            <section class="detail-section">
+              <h2>Stack</h2>
+              <div class="tag-list">
+                <span>whisper_large_v2</span>
+                <span>llama3-8B</span>
+                <span>tacotron2-DDC-GST</span>
+                <span>Qwen</span>
+                <span>DeepSeek</span>
+              </div>
+            </section>
+          </aside>
+
+          <div>
+            <section class="detail-section">
+              <h2>Background</h2>
+              <p>
+                语音交互产品需要同时处理识别、理解、生成和播报问题。该项目用于验证不同模型组合与微调方式在音频数据场景下的可行性。
+              </p>
+            </section>
+
+            <section class="detail-section">
+              <h2>What I Did</h2>
+              <ul>
+                <li>搭建 whisper_large_v2、llama3-8B、tacotron2-DDC-GST 的交互预研模型。</li>
+                <li>测试 Qwen、DeepSeek 系列模型在音频数据微调场景下的表现。</li>
+                <li>比较高效参数微调与全参数微调等不同微调方式。</li>
+              </ul>
+            </section>
+
+            <section class="detail-section">
+              <h2>Output</h2>
+              <p>
+                通过该项目沉淀了 ASR、LLM、TTS 端到端语音交互链路理解，并补充了大模型微调与语音产品结合的技术背景。
+              </p>
+            </section>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <p>Last updated: Jun 2026 · Static homepage for GitHub Pages.</p>
+    </footer>
+  </body>
+</html>
