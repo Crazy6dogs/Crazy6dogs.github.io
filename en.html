@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Hu Zhentao's English homepage for AI product, applied AI, agent workflow, digital human, AIGC video, speech interaction, and wireless sensing work."
+    />
+    <title>Hu Zhentao - English Homepage</title>
+    <link rel="icon" href="./assets/profile.jpg" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="nav-wrap">
+        <a class="site-name" href="./en.html">Hu Zhentao</a>
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a class="active" href="./en.html">Home</a>
+          <a href="./index.html" lang="zh-CN">中文</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="card intro-card">
+        <div class="intro-main">
+          <h1>Hu Zhentao</h1>
+          <div id="contact" class="intro-contact" aria-label="Contact and resume downloads">
+            <a href="mailto:hztztmnb@163.com">hztztmnb@163.com</a>
+            <span>WeChat: Crazydogone</span>
+            <a href="./assets/resume-ai-product-en.pdf" download>AI Product Resume</a>
+            <a href="./assets/resume-research-en.pdf" download>AI Research Resume</a>
+            <a href="./assets/resume-ai-product.pdf" download lang="zh-CN">中文产品简历</a>
+            <a href="./assets/resume-research.pdf" download lang="zh-CN">中文算法简历</a>
+          </div>
+          <p class="affiliation">University of Chinese Academy of Sciences · Institute of Computing Technology · M.S. in Electronic Information</p>
+          <p class="affiliation">AI Product Manager / Applied AI Product Builder / AI Product Operations</p>
+
+          <p>
+            My view is that the first phase of AI has produced enough base models and frameworks; the next phase will be shaped by
+            <strong>agentic applications that solve real user problems</strong>. In a fast-moving technical environment, the core product challenge is still finding
+            <strong>deployable, monetizable, and trustworthy needs</strong>.
+          </p>
+          <p>
+            My current work spans wellness companion digital humans, multi-agent cultural tourism systems, AI comic and AIGC video production pipelines, AI training products, speech interaction, and sensor-based AI research. I usually work from scenario definition and product solution design through prototype validation, engineering integration, and deployment coordination.
+          </p>
+
+          <div class="interest-block">
+            <strong>Interests:</strong>
+            <ul>
+              <li>AI product strategy, applied AI development, AI product operations, agent workflows, and AIGC content production</li>
+              <li>LLM speech interaction, model fine-tuning, audio algorithms, wireless sensing, and evaluation-driven product design</li>
+            </ul>
+          </div>
+        </div>
+
+        <aside class="visual-column" aria-label="Portrait">
+          <div class="portrait-card" aria-label="Profile photo">
+            <img src="./assets/profile.jpg" alt="Portrait of Hu Zhentao" />
+          </div>
+        </aside>
+
+        <section class="project-reel" aria-labelledby="project-reel-title">
+          <div class="reel-head">
+            <div>
+              <h2 id="project-reel-title">Project Reel</h2>
+              <p>Short project videos loop below. Click any card to switch the main player to that project.</p>
+            </div>
+            <a class="text-link" href="#projects">See related projects</a>
+          </div>
+
+          <div class="reel-stage">
+            <div class="reel-stage-copy">
+              <p id="reel-active-kicker" class="reel-kicker">Project Clip 01</p>
+              <h3 id="reel-active-title">AI Training Product</h3>
+              <p id="reel-active-description">
+                Built an AI training product around the AI comic workflow, covering tool demos, case walkthroughs, hands-on tasks, and learner output paths. The AI comic training base has enrolled 40+ learners and formed an RMB 798-level course product.
+              </p>
+            </div>
+
+            <div class="reel-stage-player">
+              <video
+                id="reel-active-video"
+                class="active-video"
+                src="./assets/project-videos/AI培训项目.mp4"
+                controls
+                loop
+                playsinline
+                preload="metadata"
+                aria-label="Selected project introduction video"
+              ></video>
+            </div>
+          </div>
+
+          <div class="reel-rail" data-reel-rail>
+            <div class="reel-track" data-reel-track>
+              <button
+                class="reel-card is-active"
+                type="button"
+                data-key="ai-training"
+                data-ratio="landscape"
+                data-src="./assets/project-videos/AI培训项目.mp4"
+                data-kicker="Project Clip 01"
+                data-title="AI Training Product"
+                data-description="Built an AI training product around the AI comic workflow, covering tool demos, case walkthroughs, hands-on tasks, and learner output paths. The AI comic training base has enrolled 40+ learners and formed an RMB 798-level course product."
+              >
+                <span class="reel-preview">
+                  <video src="./assets/project-videos/AI培训项目.mp4" muted loop playsinline preload="metadata"></video>
+                  <span class="reel-preview-label">AI Training</span>
+                </span>
+                <span class="reel-card-copy">
+                  <strong>AI Training Product</strong>
+                  <span>Course product · AI comic · Enrollment</span>
+                </span>
+              </button>
+
+              <button
+                class="reel-card"
+                type="button"
+                data-key="openchatavatar"
+                data-ratio="landscape"
+                data-src="./assets/project-videos/openchatavatar.mp4"
+                data-kicker="Project Clip 02"
+                data-title="OpenChatAvatar Digital Human Chain"
+                data-description="Built a self-hosted interaction chain based on the open-source OpenChatAvatar framework, connecting microphone capture, VAD, ASR, LLM/agent reasoning, TTS, audio playback, and digital human rendering state."
+              >
+                <span class="reel-preview">
+                  <video src="./assets/project-videos/openchatavatar.mp4" muted loop playsinline preload="metadata"></video>
+                  <span class="reel-preview-label">OpenChatAvatar</span>
+                </span>
+                <span class="reel-card-copy">
+                  <strong>OpenChatAvatar</strong>
+                  <span>Open source · Audio chain · State sync</span>
+                </span>
+              </button>
+
+              <button
+                class="reel-card"
+                type="button"
+                data-key="digital-human-coze"
+                data-ratio="portrait"
+                data-src="./assets/project-videos/陪伴型数字人_coze.mp4"
+                data-kicker="Project Clip 03"
+                data-title="Companion Digital Human with Coze Agent"
+                data-description="Used a Coze agent for companion dialogue, intent recognition, and tool routing, while a local audio chain handled capture, recognition, synthesis, playback, and digital human rendering handoff."
+              >
+                <span class="reel-preview">
+                  <video src="./assets/project-videos/陪伴型数字人_coze.mp4" muted loop playsinline preload="metadata"></video>
+                  <span class="reel-preview-label">Coze Agent</span>
+                </span>
+                <span class="reel-card-copy">
+                  <strong>Coze Digital Human</strong>
+                  <span>Agent workflow · Voice chain</span>
+                </span>
+              </button>
+
+              <button
+                class="reel-card"
+                type="button"
+                data-key="digital-human-doubao"
+                data-ratio="portrait"
+                data-src="./assets/project-videos/陪伴型数字人_豆包.mp4"
+                data-kicker="Project Clip 04"
+                data-title="Companion Digital Human with End-to-End Voice"
+                data-description="Integrated an end-to-end real-time voice model to reduce ASR-LLM-TTS chain latency, wrapping streaming input/output, interruption, turn state, and digital human rendering interfaces."
+              >
+                <span class="reel-preview">
+                  <video src="./assets/project-videos/陪伴型数字人_豆包.mp4" muted loop playsinline preload="metadata"></video>
+                  <span class="reel-preview-label">Real-Time Voice</span>
+                </span>
+                <span class="reel-card-copy">
+                  <strong>End-to-End Voice</strong>
+                  <span>Streaming · Low latency · Turn state</span>
+                </span>
+              </button>
+
+              <button
+                class="reel-card"
+                type="button"
+                data-key="compute-provider"
+                data-ratio="landscape"
+                data-src="./assets/project-videos/算力提供.mp4"
+                data-kicker="Project Clip 05"
+                data-title="AI Comic Compute Bridge"
+                data-description="Supported AI comic production with compute relay and direct compute resources, covering GPU node access, task submission, queue scheduling, result return, permission control, and cost accounting."
+              >
+                <span class="reel-preview">
+                  <video src="./assets/project-videos/算力提供.mp4" muted loop playsinline preload="metadata"></video>
+                  <span class="reel-preview-label">Compute Bridge</span>
+                </span>
+                <span class="reel-card-copy">
+                  <strong>Compute Bridge</strong>
+                  <span>GPU resources · Queueing · Cost</span>
+                </span>
+              </button>
+
+              <button
+                class="reel-card"
+                type="button"
+                data-key="video-translator"
+                data-ratio="landscape"
+                data-src="./assets/project-videos/video-translator.mp4"
+                data-kicker="Project Clip 06"
+                data-title="Drama Translation Workflow for Overseas Distribution"
+                data-description="Connected audio extraction, ASR, translation polishing, subtitle timeline alignment, dubbing synthesis, and multilingual export for the video translation part of the AI comic production chain."
+              >
+                <span class="reel-preview">
+                  <video src="./assets/project-videos/video-translator.mp4" muted loop playsinline preload="metadata"></video>
+                  <span class="reel-preview-label">Video Translator</span>
+                </span>
+                <span class="reel-card-copy">
+                  <strong>Video Translation</strong>
+                  <span>ASR · Translation · Subtitles</span>
+                </span>
+              </button>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section id="experience" class="card two-column-card">
+        <div>
+          <h2>Education</h2>
+          <div class="entry">
+            <div class="entry-title">University of Chinese Academy of Sciences</div>
+            <div class="entry-meta">M.S. in Electronic Information · Sep 2022 - Jan 2026</div>
+            <p>Institute of Computing Technology. Research interests include artificial intelligence, sensor algorithms, time-series signal processing, and LLM applications.</p>
+          </div>
+          <div class="entry">
+            <div class="entry-title">Xidian University</div>
+            <div class="entry-meta">B.S. in Electronic Information · Sep 2018 - Jun 2022</div>
+            <p>Coursework and research exposure included signal analysis, mmWave radar applications, radar simulation, image processing, signal processing, and stochastic signal analysis.</p>
+          </div>
+
+          <h2 class="subsection">Experience</h2>
+          <div class="entry">
+            <div class="entry-title">Huawei Consumer BG · Audio Algorithm Engineer Intern</div>
+            <div class="entry-meta">Jul 2024 - Oct 2024</div>
+            <p>Worked on audio algorithm research, model prototyping, data collection, and endpoint AEC effect testing.</p>
+          </div>
+          <div class="entry">
+            <div class="entry-title">Guangxi Tourism Development Group</div>
+            <div class="entry-meta">Jan 2026 - Present</div>
+            <p>Working across multi-agent tourism, wellness companion digital humans, AI comic production, AI training, and video generation workflows. The multi-agent tourism system has been promoted in scenic spot and hotel scenarios; the digital human project received group approval and about RMB 800K in funding; the AI training product has formed an RMB 798-level course package.</p>
+          </div>
+        </div>
+
+        <div>
+          <h2>Focus</h2>
+          <ul class="compact-list">
+            <li>AI product planning and requirement decomposition</li>
+            <li>Applied AI development and product operations</li>
+            <li>Agent workflow design, function calling, and prompt engineering</li>
+            <li>Digital human and multimodal interaction products</li>
+            <li>AIGC video and content production pipelines</li>
+            <li>LLM speech interaction and model fine-tuning tests</li>
+            <li>Sensor algorithms, time-series signal processing, and wireless human activity recognition</li>
+          </ul>
+
+          <h2 class="subsection">Publications</h2>
+          <ul class="compact-list">
+            <li>Time-domain multi-scale analysis based wireless human activity recognition method, first author</li>
+            <li>T-FrFT: Fractional Fourier Transform based Discriminative Feature Extraction Method for Human Activity Classification, IJCNN 2025, first author</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="projects" class="card">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <p>The list prioritizes current AI product and applied AI work, while preserving speech interaction and wireless sensing projects as technical background.</p>
+        </div>
+
+        <article class="project-item">
+          <div class="project-thumb">01</div>
+          <div class="project-body">
+            <h3><a href="./projects/digital-human.html">Wellness Companion Digital Human</a></h3>
+            <p class="project-tags">AI Product · Digital Human · OpenChatAvatar · Coze · Real-Time Voice</p>
+            <p>
+              Validated OpenChatAvatar, Coze-agent, and real-time voice routes for a companion digital human product. The project has received group approval, talent-plan support, and about RMB 800K in funding, with derivative commercial demos in progress.
+            </p>
+            <p><a class="text-link" href="./projects/digital-human.html">View Chinese project details</a></p>
+          </div>
+        </article>
+
+        <article class="project-item">
+          <div class="project-thumb">02</div>
+          <div class="project-body">
+            <h3><a href="./projects/ai-comic.html">AI Comic Production Chain / ZiZi Animation Project</a></h3>
+            <p class="project-tags">AIGC Pipeline · Content Automation · Video Translation</p>
+            <p>
+              Mapped the full chain from content/IP acquisition, storyboard generation, model plugin integration, GPU compute relay, and video translation to distribution and monetization.
+            </p>
+            <p><a class="text-link" href="./projects/ai-comic.html">View Chinese project details</a></p>
+          </div>
+        </article>
+
+        <article class="project-item">
+          <div class="project-thumb">03</div>
+          <div class="project-body">
+            <h3><a href="./projects/multi-agent-pm.html">Multi-Agent Cultural Tourism System</a></h3>
+            <p class="project-tags">Multi-Agent · Tourism · Function Calling</p>
+            <p>
+              Built with function calling and prompt engineering, exhibited at the China-ASEAN Expo, and promoted in scenic spot and hotel scenarios.
+            </p>
+            <p><a class="text-link" href="./projects/multi-agent-pm.html">View Chinese project details</a></p>
+          </div>
+        </article>
+
+        <article class="project-item">
+          <div class="project-thumb">04</div>
+          <div class="project-body">
+            <h3><a href="./projects/ai-training.html">AI Training Product</a></h3>
+            <p class="project-tags">AI Training · Course Product · AI Comic</p>
+            <p>
+              Built an AI training product around the AI comic workflow. The AI comic training base has enrolled 40+ learners and completed an RMB 798-level course package.
+            </p>
+            <p><a class="text-link" href="./projects/ai-training.html">View Chinese project details</a></p>
+          </div>
+        </article>
+
+        <article class="project-item">
+          <div class="project-thumb">05</div>
+          <div class="project-body">
+            <h3><a href="./projects/video-generation-workflow.html">Video Generation Workflow</a></h3>
+            <p class="project-tags">AIGC Video · Workflow · Evaluation · Retry</p>
+            <p>
+              Built workflows for script planning, anchor-image generation, segmented video generation, evaluation/retry, and resumable execution, supporting e-commerce virtual try-on and semi-automated digital human templates.
+            </p>
+            <p><a class="text-link" href="./projects/video-generation-workflow.html">View Chinese project details</a></p>
+          </div>
+        </article>
+
+        <article class="project-item">
+          <div class="project-thumb">06</div>
+          <div class="project-body">
+            <h3><a href="./projects/voice-llm.html">Voice Interaction Model Based on Llama3-8B</a></h3>
+            <p class="project-tags">LLM · ASR/TTS · Fine-tuning</p>
+            <p>
+              Built a pre-research interaction chain with whisper_large_v2, Llama3-8B, and tacotron2-DDC-GST, and tested Qwen/DeepSeek model families in audio-data fine-tuning scenarios.
+            </p>
+            <p><a class="text-link" href="./projects/voice-llm.html">View Chinese project details</a></p>
+          </div>
+        </article>
+
+        <article class="project-item">
+          <div class="project-thumb">07</div>
+          <div class="project-body">
+            <h3><a href="./projects/wireless-sensing.html">Human Activity Recognition with mmWave Signals</a></h3>
+            <p class="project-tags">Research · Radar Sensing · Human Activity Recognition</p>
+            <p>
+              Completed raw mmWave radar data collection, dataset organization, experiment design, benchmark reproduction, and thesis-related experiments for wireless sensing.
+            </p>
+            <p><a class="text-link" href="./projects/wireless-sensing.html">View Chinese project details</a></p>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Last updated: Jun 2026 · Static homepage for GitHub Pages.</p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
