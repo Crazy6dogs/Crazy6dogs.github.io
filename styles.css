@@ -203,6 +203,21 @@ h3 {
   object-position: 58% 20%;
 }
 
+.agent-animation-card {
+  width: 100%;
+  padding: 10px 10px 4px;
+  border: 1px solid #dddddd;
+  border-radius: var(--radius);
+  background: linear-gradient(180deg, #fbfbfb 0%, #f2f5f8 100%);
+}
+
+.agent-animation {
+  display: block;
+  width: 100%;
+  aspect-ratio: 26 / 19;
+  border: 0;
+}
+
 .interest-block {
   margin-top: 18px;
 }
