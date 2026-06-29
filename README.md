@@ -9,8 +9,8 @@
 - `projects/`：项目详情页，包括康养数字人、AI 漫剧、多 Agent 项目管理、视频生成工作流等
 - `assets/project-videos/`：主页视频轮播使用的演示片段，目前包含 AI 培训、OpenChatAvatar 数字人、Coze/豆包陪伴型数字人、算力中转和 video-translator 翻译出海演示
 - `assets/profile.jpg`：个人照片
-- `assets/resume-ai-product.pdf`：AI 产品方向简历
-- `assets/resume-research.pdf`：AI 算法方向简历
+- `assets/resume-cn.pdf`：中文简历
+- `assets/resume-en.pdf`：英文简历
 
 ## 本地预览
 
